@@ -477,7 +477,7 @@ public class JuicerBlockEntity extends SyncedBlockEntity implements ExtendedScre
          }
 
          public IntList getInputSlotIndexes() {
-            return IntImmutableList.of(IntStream.range(0, 1).toArray());
+            return IntImmutableList.of(IntStream.range(0, 2).toArray());
          }
       };
    }
